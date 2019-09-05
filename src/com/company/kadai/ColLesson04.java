@@ -21,7 +21,7 @@ public class ColLesson04 {
 //        System.out.println(Arrays.toString(list.toArray()));
         //これだと"["とか","とか出力されちゃうので下にした
         for (int i = 0; i < n; i++) {
-            System.out.println(list.get(i).toString());
+            System.out.println(list.get(i));
         }
         System.out.println(n + "件、登録しました。");
     }
