@@ -25,7 +25,7 @@ public class ColLesson03 {
         //System.out.println(Arrays.toString(words));
         //これだと空のwordがnullで表示されるから下にした
         for(int i=0;i<n;i++){
-            System.out.println(words[i].toString());
+            System.out.println(words[i]);
         }
         System.out.println(n + "件、登録しました。");
     }
